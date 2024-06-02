@@ -24,7 +24,7 @@ jobs:
                   target_repo_token: ${{ secrets.GITHUB_TOKEN }}
                   upstream_sync_repo: Zhao-Tian-yi/RSDet
                   upstream_sync_branch: main
-                  target_sync_branch: main
+                  target_sync_branch: master
                   test_mode: false
 
             - name: Check for Failure
